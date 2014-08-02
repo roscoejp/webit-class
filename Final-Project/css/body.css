@@ -1,0 +1,65 @@
+/*	Roscoe Pyell
+	styles for body and content.*/
+
+/*body and content styles*/
+
+body, html {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+/*this is only here because IE has that blue border around image links*/
+a img { border: none; }
+
+/*content*/
+#content {
+	z-index: -100;
+	margin: 0 auto;
+	width: 750px;
+	min-height: 99.91%;
+	min-width: 750px;
+	text-align: center;
+	position: relative;
+	left: 121px;
+	font-family: sans-serif;
+}
+
+#content * {	 font-family: inherit; }
+
+/*headers... didn't ID them so mooooo!*/
+#content > a {
+	font-size: 1.5em;
+	line-height: 1.7em;
+}
+
+.u { text-decoration: underline; }
+
+.i { font-style: italic; }
+
+.odd, .even { 
+	padding: 4px; 
+	margin: 3px auto;
+	position: relative;
+	}
+
+.odd {
+	background-color: #C7C7C7;
+	width: 400px;
+}
+
+.even {
+	background-color: #E7E7E7;
+	width: 350px;
+}
+
+.dateSpawn, .nameSpawn {
+	color: #3366FF;
+	font: small-caps bold 1em sans-serif;
+}
+
+.nameSpawn { text-align: left; }
+
+.dateSpawn { float: right; }
+
+.opinionSpawn { text-align: center; }

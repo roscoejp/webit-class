@@ -1,0 +1,74 @@
+/*	Roscoe Pyell
+	styles for header and footer*/
+	
+/*fixed left nav*/
+#left {
+	position: fixed; 
+	top: 0; 
+	left: 0;
+	width: 240px;
+	bottom: 0;
+	/*tester*/
+	background-color: #AD0000;
+}
+
+#openlogo { margin: 10px 0 0 20px; }
+
+#current { margin-top: 18px; }
+
+#valid {
+	border: none;
+	position: fixed;
+	bottom: 0;
+	left: 5px;
+}
+
+#validCSS {
+	border: none;
+	position: fixed;
+	bottom: 0;
+	left: 93px;
+}
+
+/*sticky footer*/
+#footer {
+	color: #FFFFFF;
+	font: normal bold .8em arial,sans-serif;
+	margin: -43px auto;
+	height: 44px;
+	width: 750px;
+	background-color: #AD0000;
+	text-align: center;
+	position: relative;
+	left: 121px;
+	z-index: 20;
+}
+
+#footer a #logo {
+	height: 36px;
+	background-color: #800000;
+	position: relative;
+	top: 8px;
+	width: 735px;
+	margin: 0 auto;
+	display: block;
+	z-index: 2;
+}
+
+#footer a span #text{
+	float: right;
+	margin: 9px;
+	z-index: 2;	
+}
+
+#footer a img {
+	float: left;
+	margin: 5px;
+	z-index: 2;	
+}
+
+#footer a {
+	text-decoration: none;
+	color: #FFFFFF;
+	z-index: 2;	
+}

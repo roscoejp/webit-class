@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--Splash page. Will have flash entry link with splitting
+	subdirectories by 9/19.
+	Author:  Roscoe P***l - I don't like giving out my full name
+	updated: September 2010-->
+  <head>
+    <title>Welcome to Roscoe's CIS 4004 Splash Page!</title>
+	<link href="./Splash/css/body.css" rel="stylesheet" type="text/css" />
+	<link href="./Splash/css/project1.css" rel="stylesheet" type="text/css" />
+	<link href="./Splash/css/project2.css" rel="stylesheet" type="text/css" />
+	<link href="./Splash/css/project3.css" rel="stylesheet" type="text/css" />
+  </head>
+
+    <body>
+		<div id="background">
+			<!--[if IE]><div class="ifIE">
+				According to a conditional statement, you are rendering this page in
+				Internet Explorer.<br />
+				Because you're using Internet Explorer, this page WILL NOT have animation.<br />
+				I had to redesign this page in CSS3 because my Flash object was about 8MB, 
+				and that's almost 40% of my hosting space on campus.<br />
+				You should work on getting Google Chrome or Firefox.</div>
+			<![endif]-->
+			<img src="./Splash/media/mills.png" height="365" alt="mill" id="mills" />
+			<span id="hover1">
+				<a href="./Project1/"
+					id="text1">PROJECT 1</a>
+				<img src="./Splash/media/robot.png" width="347" alt="robot animation" id="robot" />
+			</span>
+		
+			
+			<span id="hover2">
+				<a href="./EPortfolio/"
+					id="text2">E-PORTFOLIO</a>
+				<img src="./Splash/media/green robot.png" width="200" alt="attack from above!"
+					id="greenbot" />
+			</span>
+			
+			
+			<span id="hover3">
+				<a href="./Final-Project/"
+					id="text3">FINAL PROJECT</a>
+				<img src="./Splash/media/robot red.png" width="540" alt="red robot" id="redbot" />
+			</span>
+			
+			<!-- START OF THE PLAYER--> 
+			<object id="player" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" name="player" width="0" height="0"> 
+				<param name="movie" value="jwplayer/player.swf" /> 
+				<param name="allowfullscreen" value="true" /> 
+				<param name="allowscriptaccess" value="always" /> 
+				<param name="flashvars" value="file=./Splash/media/becoming.mp3&autostart=true%repeat=always" /> 
+				<embed 
+					type="application/x-shockwave-flash"
+					id="player2"
+					name="player2"
+					src="./Splash/jwplayer/player.swf" 
+					width="0" 
+					height="0"
+					allowscriptaccess="always" 
+					allowfullscreen="true"
+					flashvars="file=./Splash/media/becoming.mp3&autostart=true&repeat=always" 
+				/> 
+			</object> 
+			<!--END OF THE PLAYER EMBEDDING -->
+		</div>
+	</body>
+</html>

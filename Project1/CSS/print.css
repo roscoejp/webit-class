@@ -1,0 +1,57 @@
+/*Author: Roscoe P**ll
+  CIS 4004 Print.css
+  Setptember 2010
+  CSS PRINTER OVERWRITE PAGE*/
+
+/*page header overwrite*/
+#header{
+	background-image: none;
+}
+
+#header #logo #logoimg{
+	display: none;
+}
+
+/*navbar overwrite*/
+#navBar{
+	display: none;
+}
+
+/*Whole page + blue at top. Everything gets centered in this.*/
+#container{
+	background-repeat: repeat-x;
+	background-position: top left;
+	background-color: #0D38AA;
+	height: 130px;
+	margin: -8px;
+}
+
+#content{
+	background-image: none;
+}
+
+#content .picRightAbout{
+	display: none;
+}
+
+#content .pic{
+	display: none;
+}
+
+* a{
+	text-decoration: none;
+}
+
+#content #form{
+	background-image: none;
+}
+
+#content #form #submit{
+	color: #000000;
+	border: 2px solid #000000;
+}
+
+#content #form #reset{
+	color: #000000;
+	border: 2px solid #000000;
+}

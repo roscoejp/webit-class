@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="workex.xsl" ?>
+
+<!--Authored by ROSCOE PYELL
+	ENC 3241 E-portfolio + CIS 4004
+	October 2010
+	work experience XML-->
+	
+<experience>
+	<job>
+		<where>West Plaza Mail Center</where>
+		<title>Student Assistant</title>
+		<date>September 2007 - Present</date>
+		<description>Primary functions are to sort mail and packages and provide exemplary
+		customer service. I'm also relegated to do anything that requires phyiscal labor or
+		is remotely dangerous (replacing ceiling panels/cables). I'm also responsable for 
+		programming the cash register, electronic locks, and TV presentation(s) in the
+		suit.</description>
+	</job>
+</experience>

@@ -1,0 +1,84 @@
+/* 	Authored by ROSCOE PYELL
+	ENC 3241 E-portfolio + CIS 4004
+	October 2010
+	content + footer divs*/
+	
+/*margin preset*/
+*{ margin: 0; }
+
+/*super.wrapper*/
+body, html{
+	height: 100%;		/*makes height of super.wrapper take up entire screen area*/
+	background-image: url("../images/pcb.jpg");
+	background-repeat: repeat-x;
+}
+
+/*header divs*/
+#container #header{
+	color: white;
+	font-family: Arial, Hevetica, sans-serif;
+	height: 125px;
+	width: 100%;
+	margin-top: 49px;		/*indent since absolute doesn't count toward 100% height*/
+	border-top: 1px solid #000000;
+}
+
+#container #header #title{
+	font-size: 4em;
+	width: 100%;
+	text-align: center;
+}
+
+#container #header #logo{
+	background: #004806;
+	height: 30px;
+	padding-top: 4px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+#container #header #logo span.logoText{
+	font-size: .8em;
+	float: right;
+	padding: 5px 9px 0 0;
+	font-weight: bold;
+}
+
+#container #header #logo a{
+	color: white;
+	text-decoration: none;
+	margin-left: 4px;
+}
+
+/*ACTUAL CONTENT DIVS*/
+#container #content{
+	background: #FFFFFF;
+	font-size: 1.1em;
+}
+
+#container #content #links {
+	width: 400px;
+	margin: 50px 20px;
+	float: right;
+	padding: 15px;
+	line-height: 30px;
+	text-align: center;
+	list-style-type: none;
+	font-size: 1.2em;
+}
+
+#container #content #links li a{ text-decoration: none; }
+
+/*footer div... sticks to bottom since it's out of height: 100% container*/
+#footer{
+	height: 35px;
+	width: 972px;
+	margin: 0 auto;
+	background: #004806;
+	font-size: .9em;
+	color: white;
+	font-family: Arial, Hevetica, sans-serif;
+	font-weight: normal;
+	text-align: center;
+	line-height: 34px;
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="websites.xsl" ?>
+
+<!--Authored by ROSCOE PYELL
+	ENC 3241 E-portfolio + CIS 4004
+	October 2010
+	websites XML-->
+	
+<sites>
+	<years>
+		<year>2010-2011 academic year</year>
+		<site>
+			<title>Project 1 Web Site</title>
+			<why>Created for Web Based IT</why>
+			<time>Completed in a little more than three weeks.</time>
+			<layout>Layout was inspired by that of BBC.com and UCF's EECS website.</layout>
+			<demo>Demonstrates a basic understanding of Flash, CSS, XHTML, and PHP forms.</demo>
+			<image>images/project1.jpg</image>
+		</site>
+		<site>
+			<title>E-Portfolio</title>
+			<why>Created for Web Based IT and Technical Writing</why>
+			<time>"Completed" in a little more than two days. Still not finalized for Tech. Writing.</time>
+			<layout>Layout was inspired by The Consumerist and the fact that I wanted a sticky footer.</layout>
+			<demo>Demonstrates a basic understanding of CSS, XHTML, XML, Forms, and Javascript.</demo>
+			<image>images/e-portfolio.jpg</image>
+		</site>
+		<site>
+			<title>Project 3 Web Site</title>
+			<why>Will be created for Web Based IT</why>
+			<time>To be determined.</time>
+			<layout>Planning on using a Flash pre-loader with HTML placeholders for displaying content.</layout>
+			<demo>Will demonstrate basic knowledge of PHP scripts and advanced knowledge of Flash and Javascript.</demo>
+			<image>http://eustis.eecs.ucf.edu/~aeisler/proj2/uc.png</image>
+		</site>
+		<site>
+			<title>Simple Open Source</title>
+			<why>Will be created for Technical Writing</why>
+			<time>To be determined.</time>
+			<layout>Planning on using a left static nav bar with pull outs and a sticky footer.</layout>
+			<demo>Will demonstrate basic knowledge of PHP scripts and advanced knowledge of CSS.</demo>
+			<image>http://eustis.eecs.ucf.edu/~aeisler/proj2/uc.png</image>
+		</site>
+	</years>
+</sites>

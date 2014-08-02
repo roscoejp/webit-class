@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="guestbook.xsl" ?>
+
+<!--Authored by ROSCOE PYELL
+	ENC 3241 E-portfolio + CIS 4004
+	October 2010
+	guestbook XML-->
+
+<guestbook>
+	<guest>
+		<last_name>Roscoe</last_name>
+		<first_name>Pyell</first_name>
+		<opinion>Special comment! A work in progress!</opinion>
+		<occupation>Special occupation! The architect!</occupation>
+	</guest>
+</guestbook>

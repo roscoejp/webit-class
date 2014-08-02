@@ -1,0 +1,64 @@
+/* 	Authored by ROSCOE PYELL
+	ENC 3241 E-portfolio + CIS 4004
+	October 2010
+	header divs*/
+	
+/*navbar divs*/
+#navwrapper{			/*necessary for bar to stay positioned*/
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 50px;
+}
+
+#navwrapper #navbar{		/*Since no auto margin for absolute, this gets centered*/
+	margin: 0 auto;
+	width: 972px;
+	height: 46px;
+	font-family: Arial, Hevetica, sans-serif;
+	color: black;
+	font-weight: bold;
+}
+
+#navwrapper #navbar ul{
+	border-top: 3px solid #006C09;
+	border-bottom: 3px solid #006C09;
+	
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	list-style: none;
+	font-family: inherit;
+	background: #EFEFEF;
+}
+
+#navwrapper #navbar ul li{
+	width: 106px;
+	height: 46px;
+	display: inline;
+	float: left;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	text-align: center;
+	line-height: 46px;
+}
+
+#navwrapper #navbar ul .double-line { line-height: 23px; }
+
+#navwrapper #navbar ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+#navwrapper #navbar ul li:hover { background-color: #CFCFCF; }
+
+/*contains everything that scrolls*/
+#container{
+	min-height: 99.999%;	/*minimum height of wrapper element (99.99 = no scroll bar)*/
+	height: auto;			/*adjusts height to inside contents*/
+	
+	width: 972px;
+	margin: -50px auto -35px;	/*indent bottom for footer, indent top for absolute reset*/
+	padding-top: 50px;
+}

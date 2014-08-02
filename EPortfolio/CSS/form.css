@@ -1,0 +1,51 @@
+/* 	Authored by ROSCOE PYELL
+	ENC 3241 E-portfolio + CIS 4004
+	October 2010
+	form divs... all of them*/
+	
+#form {
+	float: right;
+	width: 430px;
+	margin: 45px 45px 0 45px;
+	padding: 10px;
+	background-image: url("../images/form-back.jpg");
+}
+
+#form #location *, #form #name  *{
+	text-align: center;
+	margin: 5px;
+	width: 180px;
+}
+
+#form #opinion, #form #buttons, #form #location {
+	float: right;
+	clear: right;
+}
+
+#form #occupation {
+	margin: 0px 0 0 10px;
+	font-size: 1em;
+}
+
+#form #opinion {	
+	margin: 5px 5px 5px 0; 
+	text-align: center;
+}
+
+#form #opinion * { margin-top: 5px; }
+
+#form #buttons * {
+	margin: 6px 30px 0 0;
+	text-align: center;
+	width: 70px;
+}
+
+#form textarea {
+	margin-top: 8px;
+	background-image: url("../images/pcb.jpg");
+	color: white;
+	background-position: 204px -1px;
+	font-family: "Lucida Console", monospace;
+	line-height: 1.2em;
+	border: 1px solid #CFCFCF;
+}

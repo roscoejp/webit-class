@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="programs.xsl" ?>
+
+<!--Authored by ROSCOE PYELL
+	ENC 3241 E-portfolio + CIS 4004
+	October 2010
+	programs XML-->
+
+<programs>
+	<languages>
+		<language>JAVA programs</language>
+		<years>
+			<year>2008-2009 academic year</year>
+			<program>
+				<title>RSL Media Player</title>
+				<why>Proof of concept and the ability to work in a team setting.</why>
+				<who>Collaboration between Steven V, Larry S, and myself.</who>
+				<where>Final project for CS2.</where>
+				<note>Only a proof of concept. We were never able to get the player
+				to play compressed audio formats (we lost track of each other after
+				Larry graduated and the class broke up).</note>
+				<image>http://eustis.eecs.ucf.edu/~aeisler/proj2/uc.png</image>
+			</program>
+		</years>
+		<years>
+			<year>2010-2011 academic year</year>
+			<program>
+				<title>DES Decryptor</title>
+				<why>Brute force implementation of a DES decryptor used to test
+				a specfic key field.</why>
+				<who>Collaboration between Chris S, Jordan C, and myself.</who>
+				<where>Application for Cryptography.</where>
+				<note>Completed, but discarded once I found the runtime of a similar
+				C+ implementation to more than double the keys passed per second.</note>
+				<image>images/des.jpg</image>
+			</program>
+			<program>
+				<title>Fortune Cookie Server</title>
+				<why>Simple fortune cookie server implementation to demonstrate 
+				understanding of JAVA based socket communication.</why>
+				<who>Coded from scratch myself.</who>
+				<where>Application for Enterprise Computing.</where>
+				<note>After starting the server and connecting to it with a client, the 
+				user can specify a file to read back through the GUI's text area.</note>
+				<image>images/fortune.jpg</image>
+			</program>
+			<program>
+				<title>Consumers and Producers</title>
+				<why>Simple implementation of a multithreaded Java application using
+				the exclusive lock system.</why>
+				<who>Coded from scratch myself.</who>
+				<where>Application for Enterprise Computing.</where>
+				<note>No GUI. Consumers eat money placed into account by Producers. Consumers
+				also block if insufficient funds are in the account and until a Producer
+				notifies the stack.</note>
+				<image>images/consumer.jpg</image>
+			</program>
+			<program>
+				<title>MYSQL 2 Tier Server and GUI</title>
+				<why>2 Tier server implementation using MYSQL and SWING.</why>
+				<who>Coded from scratch by myself.</who>
+				<where>Application for Enterprise Computing.</where>
+				<note>Customized GUI written from scratch. The Java built in GUI managers
+				are more of a pain than anything. Can update and access multiple databases
+				and database types. Capable of contacting remote servers as well.</note>
+				<image>images/2 Tier.jpg</image>
+			</program>
+		</years>
+	</languages>
+</programs>

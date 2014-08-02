@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="education.xsl" ?>
+
+<!--Authored by ROSCOE PYELL
+	ENC 3241 E-portfolio + CIS 4004
+	October 2010
+	education XML-->
+	
+<education>
+	<skills>
+		<skill>Languages</skill>
+		<titles>
+			<title>Java</title>
+		</titles>
+		<titles>
+			<title>C</title>
+		</titles>
+	</skills>
+	<skills>
+		<skill>Scripting Languages</skill>
+		<titles>
+			<title>CSS</title>
+		</titles>
+		<titles>
+			<title>XML</title>
+		</titles>
+		<titles>
+			<title>HTML</title>
+		</titles>
+		<titles>
+			<title>MYSQL</title>
+		</titles>
+		<titles>
+			<title>XHTML</title>
+		</titles>
+	</skills>
+	<skills>
+		<skill>Applications</skill>
+		<titles>
+			<title>Open Office Suit</title>
+		</titles>
+		<titles>
+			<title>Microsoft Office Suit</title>
+		</titles>
+		<titles>
+			<title>MYSQL Workbench</title>
+		</titles>
+		<titles>
+			<title>Eclipse Development Suit</title>
+		</titles>
+		<titles>
+			<title>Ubuntu Operating System</title>
+		</titles>
+	</skills>	
+	<classes>
+		<class>Web Based I.T.</class>
+	</classes>
+	<classes>
+		<class>Cryptography</class>
+	</classes>
+	<classes>
+		<class>Networking</class>
+	</classes>
+	<classes>
+		<class>Information Theory</class>
+	</classes>
+	<classes>
+		<class>Networking Lab</class>
+	</classes>
+	<classes>
+		<class>Computer Science 2</class>
+	</classes>
+</education>

@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!--Form page for Project 1
+	Author:  Roscoe P***l
+	updated: September 2010-->
+  <head>
+    <title>CIS 4004 - Project 1</title>
+    <link rel="stylesheet" type="text/css" href="CSS/header.css" />
+	<link rel="stylesheet" type="text/css" href="CSS/body.css" />
+	<link rel="stylesheet" type="text/css" href="CSS/print.css" media="print" />
+  </head>
+  
+  <body>  	
+	<div id="container">
+	  <a name="top" />
+      
+	  <div id="header">								<!--HEADER WRAPPER-->
+		<div id="logo">								<!--logo-->
+		  <a href="http://www.ucf.edu">
+		    <img id="logoimg" src="images/ucfsw.jpg" alt="UCF Student Website"/>
+			<span class="logoText">University of Central Florida Student Website</span>
+		  </a>
+	    </div>
+			
+		<span class="currentPage">FORM</span>		<!--Page Title-->
+		<span class="updated">						<!--upDate-->
+		  Last update: <span class="date">October 2, 2010</span>
+		</span>
+
+		<div id="navBar">							<!--NAV WRAPPER-->
+		  <ul id="navList">							<!--Site Nav-->
+			<li> <a href="../index.html">Splash</a> </li>
+			<li> <a href="index.html">Project Home</a> </li>
+			<li> <a href="info.html">Relevant info</a> </li>
+			<li class="active"> <a href="form.html">Form</a> </li>
+			<li> <a href="flash1.html">Flash Page1</a> </li>
+			<li> <a href="flash2.html">Flash Page2</a> </li>
+			<li> <a href="links.html">Resources</a> </li>
+			<li> <a href="aboutsite.html">About the site</a> </li>
+			<li> <a href="aboutme.html" class="last">About the author</a> </li>
+		  </ul>
+		  
+		  <ul id="subList">							<!--Sub Nav-->
+			<li> <a href="#top">Welcome to the form page</a> </li>
+			<li> <a href="#info">Form function</a> </li>
+		    <li> <a href="#form">Form</a> </li>
+			<li> <a class="last" href="javascript:window.print()">Print This Page</a> </li>
+		  </ul>
+		</div>
+		
+	  </div><!--END header-->
+			
+	  <div id="content">
+	    <!--ACTUAL BODY OF DOCUMENT. READ THIS || READ THIS || READ THIS || READ THIS-->
+		
+		<div class="bigger">
+		  Tell me a little something about yourself.
+		</div>
+		<hr />
+		
+		<div class="pic" style="float:right;">
+		  <img src="images/welcome.jpg" alt="guy waving" />
+		</div>
+		<br />
+		<br />
+		
+		<a name="info" />
+		<div class="paragraph" style="float: left;">
+		  As much as the next Information Tech. student, I sincerely and honestly want to
+		  know as much as you'll tell me about yourself. To this effect, I've set up this
+		  nice little form for you to fill out. Once you're done giving me all of your
+		  information, click submit!
+		  <br />
+		  <br />
+		  Don't worry about me using your information in malicious ways, I'll just be
+		  running a simple php script located on a different server. That's a technical
+		  way of saying that everything you enter is going to be echoed back to you.
+		</div>
+	    <br />
+	    <br />
+		
+		<!--I know it's a long string of them, but it was either that or absolute them,
+		and since absolute isnt avaliable in every browser.... br-->
+		<br /><br /><br /><br /><br /><br /><br />
+		<br /><br /><br /><br /><br /><br /><br />
+		<hr />
+		
+		<div class="bigger" style="float: left;">
+		  Form
+		</div>
+		
+		<a name="form" />
+		
+		<form id="form"  
+		action="http://www.cs.ucf.edu/courses/cgs3175/fall2008/forms/phpformprocessor.php" 
+		method="post">
+		
+		  <div id="fields">
+			<input type="text" name="firstname" value="First Name"
+			onfocus="if(this.value==this.defaultValue)this.value='';" 
+			onblur="if(this.value=='')this.value=this.defaultValue;"/>
+			<br /><br />
+			<input type="text" name="middleinit" value="Middle Initial"
+			onfocus="if(this.value==this.defaultValue)this.value='';" 
+			onblur="if(this.value=='')this.value=this.defaultValue;"/>
+			<br /><br />
+			<input type="text" name="lastname" value="Last Name"
+			onfocus="if(this.value==this.defaultValue)this.value='';" 
+			onblur="if(this.value=='')this.value=this.defaultValue;"/>
+		  </div>
+		
+		  <div id="check">
+			I own a:
+			<input style="margin: 5px;" type="checkbox" name="desktop" value="on" />
+		      desktop
+			<input style="margin: 5px;" type="checkbox" name="laptop" value="on" />
+		      laptop<br /><br />
+			<input style="margin: 5px 5px 5px 69px;" type="checkbox" name="netbook" 
+		    value="on" />
+		      netbook
+			<input style="margin: 5px;" type="checkbox" name="server" value="on" />
+		      server
+		  </div>
+		  
+		  <div id="radio">
+			<input type="radio" name="sex" value="male" />
+		      <span style="color: black; margin: 0;">Male</span>
+			<input type="radio" name="sex" value="female" />
+		      <span style="color: black; margin: 0;">Female</span><br />		
+		  </div>
+		  
+		  <div id="list">
+		    <select name="class" size="2">
+			  <option value="0" disabled="disabled">Please select your class.</option>
+			  <option value="fresh" style="color: black">Freshman</option>
+			 <option value="soph" style="color: black">Sophmore</option>
+			  <option value="jun" style="color: black">Junior</option>
+			 <option value="sen" style="color: black">Senior</option>
+			  <option value="sen+" style="color: black">
+			    College? No way!
+			  </option>
+		    </select>
+		  </div>
+
+		  <div id="buttons">
+		    <input id="reset" type="reset" value="clear" />
+		    <input style="margin-left: 9em;" id="submit" type="submit" value="submit" />
+		  </div>
+		  
+		</form>
+
+		<hr />
+		
+	  </div>
+	</div>
+	
+  </body>
+</html>

@@ -1,0 +1,59 @@
+/*	Roscoe Pyell
+	styles for arguments page.*/
+
+.args { list-style: none; }
+
+.args li ul { 
+	list-style: none;
+	padding-left: 20px; 
+}
+
+.args li ul li {	margin: 10px; }
+
+.args li ul li span {	padding: 2px; }
+
+.args li ul li .pro {
+	border: 2px solid #40AA53;
+	border-left: 10px solid #40AA53;
+}
+
+.args li ul li .con {
+	border: 2px solid #B22222;
+	border-left: 10px solid #B22222;
+}
+
+.args li ul li .fly {
+	position: absolute;
+	width: 350px;
+	background-color: #E7E7E7;
+	left: -10000px;
+	padding: 3px;
+	border: 2px solid #000000;
+	/*Again, won't validate with this stuff*/
+	opacity: 0;
+	-o-transition: opacity 0.6s ease-in-out;
+	-moz-transition: opacity 0.6s ease-in-out;
+	-webkit-transition: opacity 0.6s ease-in-out;
+}
+
+.args li ul li .fly a {
+	display: block;
+	width: 400px;
+}
+
+.args li ul li:hover { 
+	position: relative; 
+	/*Even more stuff that doesn't validate*/
+	-o-transform: scale(1.2) translate(3em);
+	-moz-transform: scale(1.2) translate(3em);
+	-webkit-transform: scale(1.2) translate(3em);
+	zoom: 1.1;
+}
+
+.args li ul li:hover  > .fly{
+	top: 0;
+	left: 275px;
+	/*or with this stuff*/
+	opacity: 1;
+	zoom: .94;
+}

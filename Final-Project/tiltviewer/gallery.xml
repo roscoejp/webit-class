@@ -1,0 +1,99 @@
+<tiltviewergallery>
+	<photos>
+		<photo imageurl="images/notepad++ logo.png" linkurl="http://notepad-plus-plus.org/">
+			<title>Notepad++</title>
+			<description>Free open source enhanced text editor. A good replacement for the default Windows Notepad.
+It's also got a few helpful functions, like tabbed browsing and text highlighting for one of the 48 supported scripting, markup, and programming languages.
+I also coded all 4 of my websites in it.
+			</description>
+		</photo>
+		<photo imageurl="images/notepad++.png">
+			<title>Notepad++ in Action</title>
+			<description>Using Notepad++'s auto-complete feature</description>
+		</photo>
+		<photo imageurl="images/filezilla logo.png" linkurl="http://filezilla-project.org/">
+			<title>FileZilla</title>
+			<description>FTP Client written in Java, so it will run on all major operating systems.
+I've personally used this client for over 4 years, and I've never regretted using it. It's much nicer than having to remember a bunch of FTP commands.
+I also uploaded all my websites using it, so I'm giving credit where credit is due.</description>
+		</photo>
+		<photo imageurl="images/filezilla.gif">
+			<title>Filezilla in Action</title>
+			<description>An example of the Filezilla FTP client interface.</description>
+		</photo>
+		<photo imageurl="images/jw logo.jpg" linkurl="http://www.longtailvideo.com/players/jw-flv-player/">
+			<title>JW Player</title>
+			<description>This is a Flash based video player developed by Longtail Studios.
+This is one of those open source apps where the developer charges for more features.
+If you've been using the "Background Music" option in the nav-bar you've used this app.
+			</description>			
+		</photo>
+		<photo imageurl="images/JW-Player.png">
+			<title>JW Player in Action</title>
+			<description>An example of the JW Player interface and video streaming.</description>
+		</photo>
+		<photo imageurl="images/tiltviewer logo.png" linkurl="http://www.simpleviewer.net/tiltviewer/">
+			<title>TiltViewer</title>
+			<description>This should look familiar...
+Developed by SimpleViewer, TiltViewer is one of a few Flash based image galleries for sale on their site.
+Yes, TiltViewer is another example of a pay-for-extra-feature open source application.
+			</description>			
+		</photo>
+		<photo imageurl="images/tiltviewer.jpg">
+			<title>TiltViewer in Action</title>
+			<description>An example of the tiltviewer interface with some pictures thrown in.</description>
+		</photo>
+		<photo imageurl="images/chromium logo.jpg" linkurl="http://www.chromium.org/">
+			<title>Chromium</title>
+			<description>Chromium is an official open source version of the Google Chrome web browser.
+Google Chromium (or Chrome for that matter) are both great replacements for Internet Explorer. Google's web browsers are even faster than Firefox!
+Chromium, like Chrome, also has the ability to be run off of a flash drive. And since you can synch your favorites between browsers, you always have YOUR browser when you want to surf the web.
+			</description>
+		</photo>
+		<photo imageurl="images/chromium.png">
+			<title>Chromium in Action</title>
+			<description>An example of the Chromium web browser interface.</description>
+		</photo>
+		<photo imageurl="images/firefox logo.png" linkurl="http://www.mozilla.com/en-US/">
+			<title>Firefox</title>
+			<description>Firefox is the world's second biggest browser, and is both completely free and open source.
+Developed by the Mozilla Corporation, Firefox is designed to be a lightweight, extensible web browser.
+I've only used Firefox for a short period of time almost two years ago. It's a great browser, but nothing can compare to Chrome and Chromium. I just thought I'd point out this is one of the larger open source projects avaliable.
+			</description>
+		</photo>
+		<photo imageurl="images/firefox.png">
+			<title>Firefox in Action</title>
+			<description>An example of the Firefox user interface.</description>
+		</photo>
+		<photo imageurl="images/linux logo.jpg" linkurl="http://www.linux.org/">
+			<title>The Linux Kernel</title>
+			<description>The Linx Kernel is the flagship open source software application. Not only is it the largest open source operating system, it is also the focus of one of the most active open source communities on the internet.
+The kernel itself isn't much to look at, but the operating systems that are derived from the kernel: Ubuntu, Kubuntu, Debian, Fedora, etc... all use the kernel as their basis.</description>
+		</photo>
+		<photo imageurl="images/ubuntu.png">
+			<title>Ubuntu Operating System</title>
+			<description>The Ubuntu Operating System is one of the many operating systems designed using the Linux kernel. The reason I chose to put an image of Ubuntu here is because it is one of the largest and most accessible derivations of the kernel avaliable.</description>
+		</photo>
+		<photo imageurl="images/7zip logo.png" linkurl="http://www.7-zip.org/">
+			<title>7-Zip</title>
+			<description>7-Zip is an both an open source file manager and an open format.
+While 7-Zips file manager can be useful for viewing compressed file formats, like .rar's and .zip's, it's greatest functionality is that it can both create and read .7z files (which are basically a smaller, open source version of .zip files).
+I've been using 7-Zip as a replacement for the Windows default archival tool for almost 6 years, and not once have I been dissapointed by it's performance.
+</description>
+		</photo>
+		<photo imageurl="images/7zip.png">
+			<title>7-Zip Archive Viewer</title>
+			<description>While not quite as useful as being able to create/read .7z files, the archive viewer is a good way to view an archive without having to extract all of it's contents.</description>
+		</photo>
+		<photo imageurl="images/OpenOffice logo.png" linkurl="http://www.openoffice.org/">
+			<title>OpenOffice.org</title>
+			<description>OpenOffice is an open source productivity suit designed to replace the Microsoft Office suit.
+While I did use OpenOffice for 3 years, I recently switched back to Microsoft Office. This program is an example of what CAN happen to an open source project that tries to be too much like it's proprietary competitors.
+The application still works, it's just become overloaded with features and, for now, runs slower and takes longer to load the Microsoft Office.</description>
+		</photo>
+		<photo imageurl="images/OpenOffice.png">
+			<title>OpenOffice Application Selection</title>
+			<description>An example of the application selection splash screen. OpenOffice includes many open source alternatives to most of Microsoft Office's applications.</description>
+		</photo>
+	</photos>
+</tiltviewergallery>

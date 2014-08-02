@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!--Flash page 2 for Project 1
+	Author:  Roscoe P***l
+	updated: September 2010-->
+  <head>
+    <title>CIS 4004 - Project 1</title>
+    <link rel="stylesheet" type="text/css" href="CSS/header.css" />
+	<link rel="stylesheet" type="text/css" href="CSS/body.css" />
+  </head>
+  
+  <body>	
+	<div id="container">
+	  <a name="top" />
+      
+	  <div id="header">								<!--HEADER WRAPPER-->
+		<div id="logo">								<!--logo-->
+		  <a href="http://www.ucf.edu">
+		    <img src="images/ucfsw.jpg" alt="UCF Student Website"/>
+			<span class="logoText">University of Central Florida Student Website</span>
+		  </a>
+	    </div>
+			
+		<span class="currentPage">FLASH2</span>		<!--Page Title-->
+		<span class="updated">						<!--upDate-->
+		  Last update: <span class="date">October 2, 2010</span>
+		</span>
+
+		<div id="navBar">							<!--NAV WRAPPER-->
+		  <ul id="navList">							<!--Site Nav-->
+			<li> <a href="../index.html">Splash</a> </li>
+			<li> <a href="index.html">Project Home</a> </li>
+			<li> <a href="info.html">Relevant info</a> </li>
+			<li> <a href="form.html">Form</a> </li>
+			<li> <a href="flash1.html">Flash Page1</a> </li>
+			<li class="active"> <a href="flash2.html">Flash Page2</a> </li>
+			<li> <a href="links.html">Resources</a> </li>
+			<li> <a href="aboutsite.html">About the site</a> </li>
+			<li> <a href="aboutme.html" class="last">
+			  About the author</a> 
+			</li>
+		  </ul>
+		  
+		  <ul id="subList">							<!--Sub Nav-->
+		    <li> <a href="#top">The splash... flash(es)</a> </li>
+			<li> <a href="#flash">Flash animation (shrunk down)</a> </li>
+			<li> <a class="last" href="#info">About this flash animation</a> </li>
+		  </ul>
+		</div>
+		
+	  </div><!--END header-->
+			
+	  <div id="content">
+	    <!--ACTUAL BODY OF DOCUMENT. READ THIS || READ THIS || READ THIS || READ THIS-->
+		
+		<div class="bigger">
+		  Flash on splash.
+		</div>
+		<hr />
+		
+		<a name="flash" />
+		<div id="flashContent" style="margin:0; padding:0;">
+		  <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" 
+		  width="900" height="538" id="../wip2" align="middle">
+				<param name="movie" value="../wip2.swf" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#ffffff" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="window" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="../wip2.swf" 
+				width="900" height="538">
+					<param name="movie" value="../wip2.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#ffffff" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+		<br />
+		
+		<a name="info" />
+		<div class="paragraph" style="width: 95%; margin: 20px auto;"><br />
+		  This flash is a little more... complicated than that other, simple animation.<br /><br />
+		  Instead of using a traditional flash button, to manipulate the robot, I used
+		  something called a 'mask'. It doesn't work like a traditional mask, however, 
+		  because the mask coveres the entire page, and then I had to determine what became
+		  unmasked and when. I used a movie clip behind the mask and a motion tween inside
+		  the movie clip to move the robot. I used the movie clip because I needed to
+		  'seek' to certain positions of the movie whenever a user hovered over the clip
+		  and moved away from the clip. I haven't quite got the actionscript where I want 
+		  it, and in the end I hope to have the robot reverse it's motion tween mid-way 
+		  through said tween. I haven't done much javascripting though, so actionscript 
+		  is all new to me...<br /><br />
+		  Song: The Becoming<br />
+		  Artist: Nine Inch Nails<br /><br />
+		  <div id="actionscript" style="text-align: left; text-indent: 0;">
+			import flash.events.MouseEvent;<br />
+			import flash.net.navigateToURL;<br /><br />
+			btn_mc1.buttonMode = true;<br />
+			btn_mc1.addEventListener(MouseEvent.ROLL_OVER, onButtonOver);<br />
+			btn_mc1.addEventListener(MouseEvent.ROLL_OUT, onButtonOut);<br />
+			btn_mc1.addEventListener(MouseEvent.CLICK, onButtonClick);<br /><br />
+			function onButtonOver(e:MouseEvent): void<br />
+			{<br />
+				e.currentTarget.gotoAndPlay("over");<br />
+			}<br /><br />
+			function onButtonOut(e:MouseEvent): void<br />
+			{<br />
+				e.currentTarget.gotoAndPlay("out");<br />
+			}<br /><br />
+			function onButtonClick(e:MouseEvent): void<br />
+			{<br />
+				var url:String = "index.html";<br />
+				var request:URLRequest = new URLRequest(url);<br />
+				try {<br />
+						navigateToURL(request, '_self'); // second argument is target<br />
+				} <br />
+				catch (e:Error) { trace("Error occurred!"); };<br />
+			}
+		  </div>
+		  <br />
+		  <hr />
+		</div>
+		
+	  </div>
+	</div>
+	
+  </body>
+</html>

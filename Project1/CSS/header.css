@@ -1,0 +1,148 @@
+/*Author: Roscoe P**ll
+  CIS 4004 Project1.css
+  Setptember 2010
+  Page Header and Navigation bars*/
+
+/*page header divs*/
+#header{
+	background-image: url("../images/circuit.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	height: 151px;
+	padding: 0;
+	margin: 0 auto;
+	width: 974px;
+}
+
+/*Ghetto CSS hack for HTML... Had to look this one up actually. And
+  I had to just experiment cause IE REALLY sucks at rendering CSS that Chrome and
+  Firefox and Safari all read fine...*/
+html>body header{
+	margin-top: -5em;
+}
+html>body container{
+	height: 12.55em;
+}
+/*End that ghetto BS*/
+
+#header #logo{
+	background: #0B2F8C;
+	background-repeat: repeat-x;
+	height: 32px; 
+	padding-top: 4px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+#header #logo span.logoText{
+	display: block;
+	font-size: .8em;
+	float: right;
+	padding: 6px 9px 0 0;
+	font-weight: bold;
+}
+
+#header #logo a{
+	text-decoration: none;
+	color: white;
+	margin-left: 5px;
+}
+
+#header .currentPage{
+	font-size: 3.7em;
+	margin-left: 37px;
+}
+
+#header .updated{
+	font-size: .9em;
+	font-weight: bold;
+	float: right;
+	margin-right: 450px;
+	margin-top: 40px;
+}
+
+#header .updated .date{
+	font-weight: normal;
+}
+
+/*navbar divs*/
+#navBar{
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	color: white;
+	font-size: .8em;
+	height: 47px;
+}
+
+#navBar #navList{
+	background: #071F5C;
+	padding: 0px;
+	width: 900px;
+	margin: 0 auto;
+	list-style: none;
+	height: 26px;
+}
+
+#navBar #navList li{
+	display: inline;
+	float: left;
+	height: 100%;
+}
+
+#navBar #navList a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 0 10px;			/*so border doesn't touch the top*/
+	margin: 4px 0 0 0;			/*acutal top buffer*/
+	border-right: solid 1px blue;
+}
+
+#navBar #navList a.last{
+	border:none;
+}
+
+#navBar #navList li.active{
+	background: blue;
+}
+
+#navBar #subList{
+	background: #0000FF;
+	padding: 0px;
+	width: 900px;
+	margin: 0 auto;
+	list-style: none;
+	height: 21px;
+}
+
+#navBar #subList li{
+	display: inline;
+	float: left;
+	height: 100%;
+}
+
+#navBar #subList a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 0 10px;			/*so border doesn't touch the top*/
+	margin: 3px 0 0 0;			/*acutal top buffer*/
+	font-size: .9em;
+	font-weight: normal;
+	border-right: solid 1px #071F5C;
+}
+
+#navBar #subList a.last{
+	border: none;
+}
+
+/*Whole page + blue at top. Everything gets centered in this.*/
+#container{
+	background-repeat: repeat-x;
+	background-position: top left;
+	background-color: #0D38AA;
+	height: 130px;
+	margin: -8px;
+}

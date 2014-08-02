@@ -1,0 +1,77 @@
+/*	Roscoe Pyell
+	Fully recoded and customized with reference to
+	http://www.cssplay.co.uk/menus/basic-dropdown.html
+	I didn't copy it, but Stu Nicolas' work was a great help in
+	coding this up. <3 you Stu.
+	
+	styles for menubar(s) and flyouts.*/
+
+/*top level menu styles*/
+.menu, .menu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	top: 275px;
+	left: 60px;
+	z-index: 2;
+}
+
+.menu ul {
+	left: -1000px;			/*so the sublist is outside context*/
+	width: 200px;
+	padding: 0 20px 20px 20px;
+	/*	webkit and animation style segments on per-browser basis:
+		-o- opera, -moz- mozilla, -wekit- safari/chrome
+		these segments aren't officially documented. 
+		an unofficial list can be found at:
+		http://qooxdoo.org/documentation/general/webkit_css_styles*/
+	opacity: 0;
+	-o-transition: opacity 0.6s ease-in-out;
+	-moz-transition: opacity 0.6s ease-in-out;
+	-webkit-transition: opacity 0.6s ease-in-out;
+}
+
+.menu a {
+	display: block;
+	width: 170px;
+	padding-left: 10px;
+	font: normal bold 12px/30px arial,sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-top: 1px solid #AD0000;
+	border-bottom: 1px solid #AD0000;
+	margin: 0 -1px -1px 0;	/*-1 for right and bottom borders*/
+	background: #800000;
+}
+
+/*sublist styles*/
+.menu li.out > a { background: #800000 url(../images/arrow.gif) no-repeat 165px center; }
+
+.menu li:hover {
+	position: relative;
+	z-index: 10;			/*waaaay on top*/
+}
+
+.menu li:hover > a {
+	background-color: #B22222;
+	color: #F0C000;
+	border-color: #F0C000;
+}
+
+.menu li:hover > ul {
+	top: 0;
+	left: 160px;
+	z-index: 10; 			/*in case of overlap*/
+	opacity: 1;
+}
+
+/*sub-sublist styles*/
+.menu ul ul { padding: 0 20px 20px 0; }
+
+.menu li:hover li:hover > ul {
+	top: 0;
+	left: 180px;
+	z-index: 10;
+	opacity: 1;
+}

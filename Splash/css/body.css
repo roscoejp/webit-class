@@ -1,0 +1,17 @@
+* { 
+	margin: 0;
+	padding: 0; 
+}
+.ifIE {
+	margin: 5px 5px;
+	text-align: center;
+	width: 700px;
+	font: 30px sans-serif;
+}
+#background {
+	position: relative;
+	background: url(../media/1260579328735.jpg) no-repeat;
+	height: 828px;
+	width: 1383px;
+	overflow: hidden;
+}

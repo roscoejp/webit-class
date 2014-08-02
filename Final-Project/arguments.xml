@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="arguments.xsl" ?>
+
+<arguments>
+	<titles>
+		<title>Cost</title>
+		<anchor>#cost</anchor>
+		<pros>
+			<pro>Free is a good price!</pro>
+			<reason>
+				Open Source Software (OSS) is generally thought of as being completely free.
+				This, however, is incorrect. Open source software is ALMOST
+				entirely free. The software itself will never cost anything, but 
+				other services can be charged for.
+			</reason>
+		</pros>
+		<cons>
+			<con>Total cost isn't always cheaper</con>
+			<reason>
+				Since OSS is often maintained by the user, fixing problems becomes 
+				more dependent on expertise, whereas proprietary software vendors 
+				will usually have certified experts available. &gt;br /&lt;
+				Currently, however, more and more software vendors are offering 
+				'garunteed' OSS - that is, the user ends up paying for support 
+				rather than the program itself.
+			</reason>
+		</cons>
+		<cons>
+			<con>Isn't always compatible</con>
+			<reason>
+				Due to the small size of the open source community, users can expect 
+				to never have support for some proprietary software simply because 
+				it may never be re-written for an open source environment.
+			</reason>
+		</cons>
+	</titles>
+	<titles>
+		<title>Features &amp; Quality</title>
+		<anchor>#features</anchor>
+		<pros>
+			<pro>Reliable in the short-term</pro>
+			<reason>
+				Since individuals who write OSS aren't motivated by money but by pride,
+				most OSS is maintained and updated in the short-term. BECAUSE there is
+				no outside motivation, however, programmers may lose interest in the
+				long run.
+			</reason>
+		</pros>
+		<pros>
+			<pro>Network friendly</pro>
+			<reason>
+				The Internet is, by itself, the largest open source application ever
+				created. Recognizing this, few software vendors are willing to put
+				large amounts of resources into creating proprietary Internet
+				standards which simply can't compete with the already available
+				open source standards that the internet runs on.
+			</reason>
+		</pros>
+		<pros>
+			<pro>Customizable</pro>
+			<reason>
+				Since the end user has access to all of the code, any user with the
+				expertise can modify the software in any number of ways.
+			</reason>
+		</pros>
+		<pros>
+			<pro>Open formats</pro>
+			<reason>
+				One of the biggest positive arguments for open source is the availability
+				and documentation of open formats. Open formats are often used by open 
+				source software and in many	cases are compatible with large variety of 
+				both open and closed source applications.
+			</reason>
+		</pros>
+		<cons>
+			<con>Isn't Reliable long-term</con>
+			<reason>
+				As stated above, the fact that OSS doesn't cost anything can sometimes
+				cause programmers to lose interest in their projects - or as is more
+				often the case, programmers simply move on to newer projects. This can
+				result in projects being neglected and, ultimately, abandoned.
+			</reason>
+		</cons>
+		<cons>
+			<con>Not as many features</con>
+			<reason>
+				Some computer peripherals do not operate well with open source software.
+				Digital cameras and other devices often use proprietary formats and
+				software that are not compatible with open source formats or 
+				applications.
+			</reason>
+		</cons>
+		<cons>
+			<con>Not suitable for some applications</con>
+			<reason>
+				Specialty applications such as Reader Rabbit and other special-needs
+				software will never have an open source equivalent, either because
+				the publisher will not rewrite the code or he simply doesn't see
+				the need. Add to this the fact that a vast majority of the
+				software being used in schools is proprietary and it becomes
+				obvious why you don't see many open source applications being used 
+				at lower grade levels.
+			</reason>
+		</cons>
+	</titles>
+	<titles>
+		<title>Deployment</title>
+		<anchor>deployment</anchor>
+		<pros>
+			<pro>Only pay for what you need</pro>
+			<reason>
+				Many open source applications are written in a modular fashion, as
+				opposed to proprietary software, which often comes as a package with
+				many individual applications included. This means that the open
+				source user can pick and choose what they want to use for a particular
+				project or solution.
+			</reason>
+		</pros>
+		<pros>
+			<pro>Unlimited installations</pro>
+			<reason>
+				With open source software, you never have to worry about how many 
+				reinstalls you have left. And since there's no risk of illegal copying,
+				OSS rarely include any type of copy protection.
+			</reason>
+		</pros>
+		<pros>
+			<pro>Longevity</pro>
+			<reason>
+				As stated earlier, OSS can live forever. Even if the company that
+				wrote the software goes bankrupt, the community still has the source
+				code and, if they choose, can keep the project alive. This also has
+				the added benefit of allowing users to upgrade, rather than forcing
+				them to as is customary with proprietary software.
+			</reason>
+		</pros>
+		<cons>
+			<con>Lack of hardware support</con>
+			<reason>
+				Since the open source community is small, some hardware is never
+				fully supported by open source software.
+			</reason>
+		</cons>
+	</titles>
+	<titles>
+		<title>Users &amp; Migration</title>
+		<anchor>users</anchor>
+		<pros>
+			<pro>Learning Curve</pro>
+			<reason>
+				Because of users familiarity and comfort with using proprietary software,
+				many open source projects have begun overtly copying the graphical
+				interfaces we all know and love.
+			</reason>
+		</pros>
+		<cons>
+			<con>Integration</con>
+			<reason>
+				As stated before, open source and proprietary software do not always
+				get along. Because of this, it's not surprising that, when trying to
+				integrate a mixed software solution, problems can and do arise.
+			</reason>
+		</cons>
+	</titles>
+	<titles>
+		<title>Social &amp; Economic</title>
+		<anchor>#social</anchor>
+		<pros>
+			<pro>No vendor lock in</pro>
+			<reason>
+				Vendor lock in occurs when a user becomes dependent on a specific vendor's
+				applications. This can occur when a user desires to update an application,
+				but can only use a newer version of the old software because proprietary
+				formats are used to store all of the data. By using open formats and
+				standards, OSS almost entirely eliminates the threat of vendor lock in.
+			</reason>
+		</pros>
+		<cons>
+			<con>Educational software</con>
+			<reason>
+				Many educational programs are published by small companies which cannot 
+				afford to publish software for multiple environments. Because of this,
+				many publishers only publish products for Microsoft Windows.
+			</reason>
+		</cons>
+	</titles>
+</arguments>
